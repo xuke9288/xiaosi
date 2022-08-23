@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小思语聊机器人</title>
+    <link rel="stylesheet" href="./lib/robot.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  </head>
+  <body>
+    <div class="max-box">
+      <!-- 顶部信息栏 -->
+      <div class="information-box">
+        <h1>小思</h1>
+      </div>
+
+      <!-- 内容栏 -->
+      <div class="neirong">
+        <ul class="left-news">
+          <li class="one-li"><img src="./images/r.png" /></li>
+          <li class="two-li">你好</li>
+        </ul>
+      </div>
+
+      <!-- 底部消息栏 -->
+      <div class="news-box">
+        <input class="userInput" placeholder="在这儿输入你想说的..." type="text"/>
+        <button>发送</button>
+      </div>
+    </div>
+    <audio src="" id="voice" autoplay style="display: none"></audio>
+
+    <script src="./lib/robot.js"></script>
+  </body>
+</html>
+
